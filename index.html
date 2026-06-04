@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GL ASESORIA | Firma Contable</title>
-    
+    <link rel="icon" type="image/svg+xml" href="svg/favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
     
     <script>
@@ -24,9 +24,9 @@
 </head>
 <body class="text-gray-800 leading-relaxed font-sans bg-light">
 
-    <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
+    <header class="bg-white text-black sticky top-0 z-50 shadow-md">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <div class="text-2xl font-bold tracking-tight">TuFirmaContable</div>
+            <img src="svg/LOGO GL COMPLETO.svg" width="200" class="no-seleccionar">
             <nav class="hidden md:block">
                 <ul class="flex space-x-8 font-medium">
                     <li><a href="#inicio" class="hover:text-secondary transition-colors duration-300">Inicio</a></li>
@@ -48,7 +48,7 @@
 
         <div class="absolute inset-0 bg-primary opacity-80 z-10"></div>
         
-        <div class="relative z-20 max-w-4xl mx-auto mt-10">
+        <div class="relative z-20 max-w-4xl mx-auto mt-10 ">
             <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight drop-shadow-md">Soluciones Contables y Fiscales a tu Medida</h1>
             <p class="text-lg md:text-xl mb-10 text-gray-200 max-w-2xl mx-auto drop-shadow">
                 Asesoramos a tu empresa para garantizar el cumplimiento tributario y optimizar tus procesos administrativos en el complejo entorno económico venezolano.
@@ -156,4 +156,13 @@
     </script>
 
 </body>
+<style>
+  .no-seleccionar {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+    user-select: none;         /* Estándar moderno */
+    pointer-events: none;      /* Evita que el ratón interactúe con el logo */
+  }
+</style>
 </html>
