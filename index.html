@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GL ASESORIA | Firma Contable</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A2540',
+                        secondary: '#1169FA',
+                        dark: '#061626',
+                        light: '#f4f7f6'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="text-gray-800 leading-relaxed font-sans bg-light">
+
+    <header class="bg-primary text-white sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tight">TuFirmaContable</div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8 font-medium">
+                    <li><a href="#inicio" class="hover:text-secondary transition-colors duration-300">Inicio</a></li>
+                    <li><a href="#servicios" class="hover:text-secondary transition-colors duration-300">Servicios</a></li>
+                    <li><a href="#nosotros" class="hover:text-secondary transition-colors duration-300">Nosotros</a></li>
+                    <li><a href="#contacto" class="hover:text-secondary transition-colors duration-300">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="relative text-white text-center py-32 px-6 min-h-[80vh] flex items-center justify-center overflow-hidden">
+        
+        <div id="slider" class="absolute inset-0 z-0">
+            <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out opacity-100" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out opacity-0" style="background-image: url('https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1920&q=80');"></div>
+            <div class="hero-slide absolute inset-0 bg-cover bg-center transition-opacity duration-1000 ease-in-out opacity-0" style="background-image: url('https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1920&q=80');"></div>
+        </div>
+
+        <div class="absolute inset-0 bg-primary opacity-80 z-10"></div>
+        
+        <div class="relative z-20 max-w-4xl mx-auto mt-10">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6 leading-tight drop-shadow-md">Soluciones Contables y Fiscales a tu Medida</h1>
+            <p class="text-lg md:text-xl mb-10 text-gray-200 max-w-2xl mx-auto drop-shadow">
+                Asesoramos a tu empresa para garantizar el cumplimiento tributario y optimizar tus procesos administrativos en el complejo entorno económico venezolano.
+            </p>
+            <a href="#contacto" class="inline-block bg-secondary hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-md transition-transform transform hover:scale-105 duration-300 shadow-lg">
+                Agendar Asesoría
+            </a>
+        </div>
+    </section>
+
+    <section id="servicios" class="py-20 px-6 container mx-auto">
+        <h2 class="text-3xl md:text-4xl font-bold text-center text-primary mb-16">Nuestros Servicios</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 border-t-4 border-transparent hover:border-secondary">
+                <h3 class="text-xl font-bold text-secondary mb-4">Asesoría Tributaria (SENIAT)</h3>
+                <p class="text-gray-600">Cálculo y presentación de declaraciones de ISLR, retenciones de IVA e IGTF. Gestión de trámites administrativos, actualización de RIF y RAR.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 border-t-4 border-transparent hover:border-secondary">
+                <h3 class="text-xl font-bold text-secondary mb-4">Contabilidad General</h3>
+                <p class="text-gray-600">Elaboración de estados financieros, balances de comprobación, y mantenimiento al día de los libros de compra y venta para empresas.</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 border-t-4 border-transparent hover:border-secondary">
+                <h3 class="text-xl font-bold text-secondary mb-4">Gestión de Nómina</h3>
+                <p class="text-gray-600">Procesamiento de nóminas regulares, cálculo de liquidaciones y administración de obligaciones parafiscales (IVSS, FAOV, INCES).</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 border-t-4 border-transparent hover:border-secondary">
+                <h3 class="text-xl font-bold text-secondary mb-4">Automatización y Reportes</h3>
+                <p class="text-gray-600">Diseño de macros en Excel y herramientas para la automatización de reportes administrativos, cuadres contables y validación masiva de datos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="bg-white py-20 px-6">
+        <div class="container mx-auto max-w-4xl text-center md:text-left flex flex-col md:flex-row items-center gap-12">
+            <div class="flex-1">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-6">Sobre Nosotros</h2>
+                <p class="text-gray-700 mb-4 text-lg">
+                    Somos un equipo de contadores profesionales radicados en Venezuela, dedicados a brindar tranquilidad a nuestros clientes. Entendemos que el marco legal y fiscal del país requiere atención al detalle, precisión y actualización constante.
+                </p>
+                <p class="text-gray-700 text-lg">
+                    Nuestro enfoque combina la experiencia contable tradicional con el uso de herramientas tecnológicas para agilizar tus procesos administrativos, permitiéndote enfocarte en hacer crecer tu negocio mientras nosotros nos encargamos de los números.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="bg-primary text-white py-20 px-6 text-center">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12">Ponte en Contacto</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="p-6 bg-dark bg-opacity-30 rounded-lg">
+                    <span class="text-3xl block mb-3">📍</span>
+                    <strong class="block text-lg mb-1 text-secondary">Ubicación:</strong>
+                    <p class="text-gray-300">Ciudad Ojeda, Estado Zulia<br>Venezuela</p>
+                </div>
+                <div class="p-6 bg-dark bg-opacity-30 rounded-lg">
+                    <span class="text-3xl block mb-3">📞</span>
+                    <strong class="block text-lg mb-1 text-secondary">Teléfono / WhatsApp:</strong>
+                    <p class="text-gray-300">+58 412-0000000</p>
+                </div>
+                <div class="p-6 bg-dark bg-opacity-30 rounded-lg">
+                    <span class="text-3xl block mb-3">✉️</span>
+                    <strong class="block text-lg mb-1 text-secondary">Correo Electrónico:</strong>
+                    <p class="text-gray-300">contacto@tufirmacontable.com</p>
+                </div>
+            </div>
+
+            <a href="mailto:contacto@tufirmacontable.com" class="inline-block bg-secondary hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-md transition-colors duration-300 shadow-lg">
+                Escríbenos un Correo
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-gray-400 text-center py-6 border-t border-gray-800">
+        <p>&copy; 2026 TuFirmaContable. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const slides = document.querySelectorAll('.hero-slide');
+            let currentSlide = 0;
+
+            // Función para cambiar de imagen
+            const changeSlide = () => {
+                // Quitar opacidad a la imagen actual
+                slides[currentSlide].classList.remove('opacity-100');
+                slides[currentSlide].classList.add('opacity-0');
+                
+                // Calcular el índice de la siguiente imagen
+                currentSlide = (currentSlide + 1) % slides.length;
+                
+                // Darle opacidad a la nueva imagen
+                slides[currentSlide].classList.remove('opacity-0');
+                slides[currentSlide].classList.add('opacity-100');
+            };
+
+            // Ejecutar el cambio cada 5 segundos (5000 milisegundos)
+            setInterval(changeSlide, 5000);
+        });
+    </script>
+
+</body>
+</html>
