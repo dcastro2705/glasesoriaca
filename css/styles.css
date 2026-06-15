@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Voga';
+    src: url('font/Voga.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.voga {
+    font-family: 'Voga';
+}
